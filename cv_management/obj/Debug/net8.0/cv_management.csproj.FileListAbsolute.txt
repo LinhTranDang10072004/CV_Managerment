@@ -147,3 +147,4 @@ C:\Users\letha\OneDrive\Documents\Ky7\PRN222\ASP.NET\cv_management\cv_management
 C:\Users\letha\OneDrive\Documents\Ky7\PRN222\ASP.NET\cv_management\cv_management\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\letha\OneDrive\Documents\Ky7\PRN222\ASP.NET\cv_management\cv_management\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\letha\OneDrive\Documents\Ky7\PRN222\ASP.NET\cv_management\cv_management\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\letha\OneDrive\Documents\Ky7\PRN222\ASP.NET\cv_management\cv_management\obj\Debug\net8.0\cv_management.sourcelink.json

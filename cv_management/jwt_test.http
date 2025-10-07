@@ -1,0 +1,41 @@
+### 1. Test Register
+POST https://localhost:7217/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "email": "test@example.com",
+  "password": "123456",
+  "fullName": "Test User"
+}
+
+###
+
+### 2. Test Login (sẽ trả về JWT token)
+POST https://localhost:7217/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "123456"
+}
+
+###
+
+### 3. Test Get Profile (cần JWT token)
+GET https://localhost:7217/api/user
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### 4. Test Update Profile (cần JWT token)
+PUT https://localhost:7217/api/user/update
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "fullName": "Updated Name",
+  "email": "updated@example.com"
+}
+
+###
