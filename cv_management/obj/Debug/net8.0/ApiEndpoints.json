@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "CvManagementApi.Controllers.AuthController",
+    "ContainingType": "cv_management.Controllers.Auth.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -8,15 +8,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "req",
-        "Type": "CvManagementApi.Controllers.LoginRequest",
+        "Name": "request",
+        "Type": "cv_management.Controllers.Auth.DTOs.LoginRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CvManagementApi.Controllers.AuthController",
+    "ContainingType": "cv_management.Controllers.Auth.AuthController",
     "Method": "Register",
     "RelativePath": "api/Auth/register",
     "HttpMethod": "POST",
@@ -24,15 +24,104 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "req",
-        "Type": "CvManagementApi.Controllers.RegisterRequest",
+        "Name": "request",
+        "Type": "cv_management.Controllers.Auth.DTOs.RegisterRequest",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "cv_management.Controllers.UserController",
+    "ContainingType": "cv_management.Controllers.Auth.AuthController",
+    "Method": "TestToken",
+    "RelativePath": "api/Auth/test-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.CV.CVController",
+    "Method": "GetUserCVs",
+    "RelativePath": "api/CV",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.CV.CVController",
+    "Method": "CreateCV",
+    "RelativePath": "api/CV",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "cv_management.Controllers.CV.DTOs.CreateCVRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.CV.CVController",
+    "Method": "GetCVDetails",
+    "RelativePath": "api/CV/{cvId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cvId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.CV.CVController",
+    "Method": "UpdateCV",
+    "RelativePath": "api/CV/{cvId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cvId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "cv_management.Controllers.CV.DTOs.UpdateCVRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.CV.CVController",
+    "Method": "DeleteCV",
+    "RelativePath": "api/CV/{cvId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cvId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.User.UserController",
     "Method": "GetProfile",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
@@ -42,7 +131,17 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "cv_management.Controllers.UserController",
+    "ContainingType": "cv_management.Controllers.User.UserController",
+    "Method": "GetUserCVs",
+    "RelativePath": "api/User/cvs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cv_management.Controllers.User.UserController",
     "Method": "UpdateProfile",
     "RelativePath": "api/User/update",
     "HttpMethod": "PUT",
@@ -51,7 +150,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "cv_management.Controllers.UpdateProfileRequest",
+        "Type": "cv_management.Controllers.User.DTOs.UpdateProfileRequest",
         "IsRequired": true
       }
     ],

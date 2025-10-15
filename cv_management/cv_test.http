@@ -1,0 +1,150 @@
+### 1. Đăng nhập để lấy JWT token
+POST https://localhost:7217/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "123456"
+}
+
+###
+
+### 2. Lấy danh sách CV của user
+GET https://localhost:7217/api/cv
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### 3. Tạo CV mới với đầy đủ thông tin
+POST https://localhost:7217/api/cv
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "title": "CV Frontend Developer",
+  "isPublic": true,
+  "isDefault": true,
+  "personalInfo": {
+    "fullName": "Nguyễn Văn A",
+    "dateOfBirth": "1995-01-15",
+    "phone": "0123456789",
+    "email": "nguyenvana@email.com",
+    "address": "Hà Nội, Việt Nam",
+    "summary": "Frontend Developer với 3 năm kinh nghiệm trong React, Vue.js và Angular"
+  },
+  "workExperiences": [
+    {
+      "companyName": "Tech Company ABC",
+      "position": "Frontend Developer",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "description": "Phát triển ứng dụng web sử dụng React và TypeScript"
+    },
+    {
+      "companyName": "Startup XYZ",
+      "position": "Junior Developer",
+      "startDate": "2021-06-01",
+      "endDate": "2021-12-31",
+      "description": "Tham gia phát triển dự án web với Vue.js"
+    }
+  ],
+  "educations": [
+    {
+      "schoolName": "Đại học Bách Khoa Hà Nội",
+      "degree": "Cử nhân",
+      "major": "Công nghệ thông tin",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-30",
+      "description": "Tốt nghiệp loại giỏi"
+    }
+  ],
+  "skills": [
+    {
+      "skillName": "React",
+      "proficiency": "Advanced"
+    },
+    {
+      "skillName": "Vue.js",
+      "proficiency": "Intermediate"
+    },
+    {
+      "skillName": "JavaScript",
+      "proficiency": "Advanced"
+    },
+    {
+      "skillName": "TypeScript",
+      "proficiency": "Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Website",
+      "description": "Website bán hàng trực tuyến sử dụng React và Node.js",
+      "technologies": "React, Node.js, MongoDB, Express",
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-30"
+    },
+    {
+      "name": "Task Management App",
+      "description": "Ứng dụng quản lý công việc cá nhân",
+      "technologies": "Vue.js, Firebase",
+      "startDate": "2022-07-01",
+      "endDate": "2022-12-31"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2023-03-15",
+      "expiryDate": "2026-03-15"
+    },
+    {
+      "name": "React Developer Certification",
+      "issuer": "Meta",
+      "issueDate": "2022-08-20",
+      "expiryDate": null
+    }
+  ],
+  "languages": [
+    {
+      "languageName": "Tiếng Việt",
+      "proficiency": "Native"
+    },
+    {
+      "languageName": "Tiếng Anh",
+      "proficiency": "Advanced"
+    },
+    {
+      "languageName": "Tiếng Nhật",
+      "proficiency": "Beginner"
+    }
+  ]
+}
+
+###
+
+### 4. Lấy thông tin chi tiết CV (thay CV_ID bằng ID thực tế)
+GET https://localhost:7217/api/cv/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###
+
+### 5. Cập nhật CV
+PUT https://localhost:7217/api/cv/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "title": "CV Senior Frontend Developer",
+  "isPublic": true,
+  "isDefault": false
+}
+
+###
+
+### 6. Xóa CV
+DELETE https://localhost:7217/api/cv/1
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+
+###

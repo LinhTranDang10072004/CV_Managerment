@@ -1,0 +1,27 @@
+### Bước 1: Đăng nhập để lấy token
+POST https://localhost:7217/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "123456"
+}
+
+### ⚠️ QUAN TRỌNG: Copy token từ response ở trên và paste vào dưới đây
+
+### Bước 2: Test lấy danh sách CV (thay YOUR_TOKEN_HERE bằng token thực)
+GET https://localhost:7217/api/cv
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### Bước 3: Test tạo CV đơn giản
+POST https://localhost:7217/api/cv
+Authorization: Bearer YOUR_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "title": "CV Test",
+  "isPublic": true,
+  "isDefault": false
+}
+
+###

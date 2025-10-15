@@ -1,0 +1,25 @@
+### Quick Test - Đăng nhập và lấy token
+POST https://localhost:7217/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "123456"
+}
+
+### Test lấy profile (thay YOUR_TOKEN bằng token từ trên)
+GET https://localhost:7217/api/user
+Authorization: Bearer YOUR_TOKEN
+
+### Test tạo CV đơn giản
+POST https://localhost:7217/api/cv
+Authorization: Bearer YOUR_TOKEN
+Content-Type: application/json
+
+{
+  "title": "Test CV",
+  "isPublic": true,
+  "isDefault": true
+}
+
+###

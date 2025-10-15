@@ -1,0 +1,162 @@
+### ========================================
+### AUTHENTICATION APIs
+### ========================================
+
+### 1. Đăng nhập
+POST https://localhost:7217/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "123456"
+}
+
+### 2. Đăng ký user mới
+POST https://localhost:7217/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "newuser",
+  "email": "newuser@example.com",
+  "password": "123456",
+  "fullName": "New User"
+}
+
+### 3. Test JWT token (thay YOUR_TOKEN bằng token từ login)
+POST https://localhost:7217/api/auth/test-token
+Authorization: Bearer YOUR_TOKEN
+
+### ========================================
+### USER PROFILE APIs
+### ========================================
+
+### 4. Lấy thông tin profile user
+GET https://localhost:7217/api/user
+Authorization: Bearer YOUR_TOKEN
+
+### 5. Cập nhật profile user
+PUT https://localhost:7217/api/user/update
+Authorization: Bearer YOUR_TOKEN
+Content-Type: application/json
+
+{
+  "fullName": "Updated Name",
+  "email": "updated@example.com"
+}
+
+### 6. Lấy danh sách CV của user
+GET https://localhost:7217/api/user/cvs
+Authorization: Bearer YOUR_TOKEN
+
+### ========================================
+### CV MANAGEMENT APIs
+### ========================================
+
+### 7. Lấy danh sách CV
+GET https://localhost:7217/api/cv
+Authorization: Bearer YOUR_TOKEN
+
+### 8. Tạo CV mới (đơn giản)
+POST https://localhost:7217/api/cv
+Authorization: Bearer YOUR_TOKEN
+Content-Type: application/json
+
+{
+  "title": "My First CV",
+  "isPublic": true,
+  "isDefault": true
+}
+
+### 9. Tạo CV đầy đủ thông tin
+POST https://localhost:7217/api/cv
+Authorization: Bearer YOUR_TOKEN
+Content-Type: application/json
+
+{
+  "title": "Senior Frontend Developer CV",
+  "isPublic": true,
+  "isDefault": false,
+  "personalInfo": {
+    "fullName": "Nguyễn Văn A",
+    "dateOfBirth": "1995-01-15",
+    "phone": "0123456789",
+    "email": "nguyenvana@email.com",
+    "address": "Hà Nội, Việt Nam",
+    "summary": "Frontend Developer với 5 năm kinh nghiệm"
+  },
+  "workExperiences": [
+    {
+      "companyName": "Tech Company ABC",
+      "position": "Senior Frontend Developer",
+      "startDate": "2022-01-01",
+      "endDate": "2024-01-01",
+      "description": "Phát triển ứng dụng web sử dụng React và TypeScript"
+    }
+  ],
+  "educations": [
+    {
+      "schoolName": "Đại học Bách Khoa Hà Nội",
+      "degree": "Cử nhân",
+      "major": "Công nghệ thông tin",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-30"
+    }
+  ],
+  "skills": [
+    {
+      "skillName": "React",
+      "proficiency": "Advanced"
+    },
+    {
+      "skillName": "JavaScript",
+      "proficiency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-commerce Website",
+      "description": "Website bán hàng trực tuyến",
+      "technologies": "React, Node.js, MongoDB",
+      "startDate": "2023-01-01",
+      "endDate": "2023-06-30"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Developer",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2023-03-15"
+    }
+  ],
+  "languages": [
+    {
+      "languageName": "Tiếng Việt",
+      "proficiency": "Native"
+    },
+    {
+      "languageName": "Tiếng Anh",
+      "proficiency": "Advanced"
+    }
+  ]
+}
+
+### 10. Lấy chi tiết CV (thay CV_ID bằng ID thực tế)
+GET https://localhost:7217/api/cv/1
+Authorization: Bearer YOUR_TOKEN
+
+### 11. Cập nhật CV
+PUT https://localhost:7217/api/cv/1
+Authorization: Bearer YOUR_TOKEN
+Content-Type: application/json
+
+{
+  "title": "Updated CV Title",
+  "isPublic": false,
+  "isDefault": true
+}
+
+### 12. Xóa CV
+DELETE https://localhost:7217/api/cv/1
+Authorization: Bearer YOUR_TOKEN
+
+###
