@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\models\\cvmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\models\\cvmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\cv\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\cv\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\user\\dtos\\userprofileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,16 +15,44 @@
       "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\user\\dtos\\updateprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\cv\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\cv\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\cv\\dtos\\createcvrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\cv\\dtos\\createcvrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\dtos\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\dtos\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\models\\cvmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\models\\cvmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\cv\\dtos\\updatecvrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\cv\\dtos\\updatecvrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\cv\\dtos\\cvresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\cv\\dtos\\cvresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\controllers\\cv\\dtos\\createcvrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|solutionrelative:cv_management\\controllers\\cv\\dtos\\createcvrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C29E7941-065B-4E41-ADEB-562EAD4F415D}|cv_management\\cv_management.csproj|c:\\users\\letha\\onedrive\\documents\\ky7\\prn222\\asp.net\\cv_management\\cv_management\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -96,7 +100,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -108,52 +112,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CVController.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\CVController.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\CVController.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\CVController.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\CV\\CVController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:24:45.774Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\Auth\\AuthController.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\Auth\\AuthController.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\Auth\\AuthController.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\Auth\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\User\\UserController.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\User\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:20:41.513Z",
+              "WhenOpened": "2025-10-16T06:31:08.74Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateCVRequest.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:12:21.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CVResponse.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:12:09.343Z"
             },
             {
               "$type": "Document",
@@ -169,31 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CvManagementContext.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\CvManagementContext.cs",
-              "RelativeDocumentMoniker": "cv_management\\Models\\CvManagementContext.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\CvManagementContext.cs",
-              "RelativeToolTip": "cv_management\\Models\\CvManagementContext.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:27:44.102Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T07:06:14.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\Auth\\DTOs\\LoginRequest.cs",
               "RelativeDocumentMoniker": "cv_management\\Controllers\\Auth\\DTOs\\LoginRequest.cs",
@@ -205,7 +149,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateCVRequest.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:12:05.169Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CVController.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\CVController.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\CVController.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\CVController.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\CV\\CVController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:24:45.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateProfileRequest.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:12:24.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfileResponse.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:12:25.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\Auth\\DTOs\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "cv_management\\Controllers\\Auth\\DTOs\\RegisterRequest.cs",
@@ -218,42 +210,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UpdateProfileRequest.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\User\\DTOs\\UpdateProfileRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\Auth\\AuthController.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\Auth\\AuthController.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\Auth\\AuthController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBEAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:12:24.141Z"
+              "WhenOpened": "2025-10-15T04:20:41.513Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserProfileResponse.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\User\\DTOs\\UserProfileResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "CvManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\CvManagementContext.cs",
+              "RelativeDocumentMoniker": "cv_management\\Models\\CvManagementContext.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\CvManagementContext.cs",
+              "RelativeToolTip": "cv_management\\Models\\CvManagementContext.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:12:25.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateCVRequest.cs",
-              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
-              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
-              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
-              "RelativeToolTip": "cv_management\\Controllers\\CV\\DTOs\\CreateCVRequest.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T04:12:05.169Z"
+              "WhenOpened": "2025-09-30T07:27:44.102Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "CVResponse.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\CV\\DTOs\\CVResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:12:09.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateCVRequest.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\CV\\DTOs\\UpdateCVRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T04:12:21.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "cv_management\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "cv_management\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T07:06:14.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Company.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\Company.cs",
               "RelativeDocumentMoniker": "cv_management\\Models\\Company.cs",
@@ -265,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Services\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "cv_management\\Services\\PasswordHasher.cs",
@@ -277,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Education.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\Education.cs",
               "RelativeDocumentMoniker": "cv_management\\Models\\Education.cs",
@@ -289,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Program.cs",
               "RelativeDocumentMoniker": "cv_management\\Program.cs",
@@ -301,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\appsettings.json",
               "RelativeDocumentMoniker": "cv_management\\appsettings.json",
@@ -313,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\appsettings.Development.json",
               "RelativeDocumentMoniker": "cv_management\\appsettings.Development.json",
@@ -325,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Models\\Role.cs",
               "RelativeDocumentMoniker": "cv_management\\Models\\Role.cs",
