@@ -100,7 +100,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,6 +111,10 @@
               "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserController.cs",
@@ -118,7 +122,7 @@
               "RelativeDocumentMoniker": "cv_management\\Controllers\\User\\UserController.cs",
               "ToolTip": "C:\\Users\\letha\\OneDrive\\Documents\\Ky7\\PRN222\\ASP.NET\\cv_management\\cv_management\\Controllers\\User\\UserController.cs",
               "RelativeToolTip": "cv_management\\Controllers\\User\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T06:31:08.74Z",
               "EditorCaption": ""
