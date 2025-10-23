@@ -234,7 +234,7 @@ namespace cv_management.Controllers.Auth
                 audience: jwtAudience,
                 claims: claims,
                 expires: DateTime.UtcNow.AddHours(1), // Token expires after 1 hour
-                signingCredentials: credentials
+                signingCredentials: credentials                                         
             );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
