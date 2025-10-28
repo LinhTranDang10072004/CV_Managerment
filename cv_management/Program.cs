@@ -91,7 +91,7 @@ app.UseCors("AllowAngularDev");
 
 // Thêm middleware Authentication + Authorization
 app.UseAuthentication();
-app.UseAuthorization();
+app.UseAuthorization();    
 
 app.MapControllers();
 

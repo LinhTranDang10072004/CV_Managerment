@@ -1,0 +1,187 @@
+### JOBS API TEST
+### Hệ thống quản lý việc làm - Company có thể đăng tuyển
+
+@baseUrl = http://localhost:5000/api
+@token = YOUR_TOKEN_HERE
+
+### ==============================================================
+### BƯỚC 1: ĐĂNG NHẬP / ĐĂNG KÝ (Lấy token)
+### ==============================================================
+
+### 1.1 Đăng ký user mới
+POST {{baseUrl}}/Auth/register
+Content-Type: application/json
+
+{
+  "username": "company_user",
+  "email": "company@example.com",
+  "password": "password123",
+  "fullName": "Tech Corp Owner"
+}
+
+### 1.2 Đăng nhập
+POST {{baseUrl}}/Auth/login
+Content-Type: application/json
+
+{
+  "username": "company_user",
+  "password": "password123"
+}
+
+### ==============================================================
+### BƯỚC 2: TẠO COMPANY PROFILE
+### ==============================================================
+
+### 2.1 Tạo Company mới (Phải đăng nhập trước)
+POST {{baseUrl}}/Company
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Tech Corp Vietnam",
+  "address": "Tầng 5, Tòa nhà ABC, Quận 1, TP.HCM",
+  "description": "Công ty công nghệ hàng đầu chuyên về AI và Machine Learning",
+  "website": "https://techcorp.vn"
+}
+
+### 2.2 Xem Company profile của mình
+GET {{baseUrl}}/Company/my-company
+Authorization: Bearer {{token}}
+
+### 2.3 Lấy danh sách tất cả Companies
+GET {{baseUrl}}/Company
+
+### 2.4 Lấy thông tin Company theo ID
+GET {{baseUrl}}/Company/1
+
+### 2.5 Cập nhật Company profile
+PUT {{baseUrl}}/Company/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Tech Corp Vietnam (Updated)",
+  "description": "Công ty công nghệ đang phát triển nhanh tại Việt Nam",
+  "address": "Tầng 10, Bitexco Financial Tower, TP.HCM"
+}
+
+### ==============================================================
+### BƯỚC 3: TẠO VÀ QUẢN LÝ JOBS
+### ==============================================================
+
+### 3.1 Company tạo Job mới (Phải có Company profile)
+POST {{baseUrl}}/Jobs
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Senior Backend Developer (.NET)",
+  "description": "Chúng tôi đang tìm kiếm Backend Developer giỏi về .NET Core và ASP.NET",
+  "requirements": "- 3+ năm kinh nghiệm .NET Core\n- Thành thạo C#, Entity Framework\n- Có kinh nghiệm với Microservices\n- Biết SQL Server, PostgreSQL",
+  "salaryRange": "25-35 triệu VND",
+  "location": "TP.Hồ Chí Minh",
+  "jobType": "Full-time",
+  "status": "Active"
+}
+
+### 3.2 Tạo thêm Job khác
+POST {{baseUrl}}/Jobs
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Frontend Developer (React)",
+  "description": "Tìm Frontend Developer có kinh nghiệm với React và TypeScript",
+  "requirements": "- 2+ năm kinh nghiệm React\n- Thành thạo TypeScript, Redux\n- Biết về responsive design\n- Ưu tiên có kinh nghiệm Next.js",
+  "salaryRange": "20-30 triệu VND",
+  "location": "Hà Nội",
+  "jobType": "Full-time",
+  "status": "Active"
+}
+
+### 3.3 Lấy danh sách tất cả Jobs (có phân trang)
+GET {{baseUrl}}/Jobs?pageNumber=1&pageSize=10
+
+### 3.4 Lấy Jobs với bộ lọc (theo location)
+GET {{baseUrl}}/Jobs?location=Hồ Chí Minh
+
+### 3.5 Lấy Jobs với bộ lọc (theo jobType)
+GET {{baseUrl}}/Jobs?jobType=Full-time
+
+### 3.6 Lấy Jobs với bộ lọc (theo status)
+GET {{baseUrl}}/Jobs?status=Active
+
+### 3.7 Lấy Jobs của 1 Company cụ thể
+GET {{baseUrl}}/Jobs/company/1
+
+### 3.8 Lấy chi tiết 1 Job
+GET {{baseUrl}}/Jobs/1
+
+### 3.9 Cập nhật Job (Chỉ Company owner)
+PUT {{baseUrl}}/Jobs/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Senior Backend Developer (.NET) - Updated",
+  "salaryRange": "30-40 triệu VND",
+  "status": "Active",
+  "requirements": "- 3+ năm kinh nghiệm .NET Core\n- Thành thạo C#, Entity Framework\n- Có kinh nghiệm với Microservices và Docker\n- Biết SQL Server, PostgreSQL\n- Ưu tiên có kinh nghiệm AWS/Azure"
+}
+
+### 3.10 Đóng Job (chuyển status sang Closed)
+PUT {{baseUrl}}/Jobs/1
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "status": "Closed"
+}
+
+### 3.11 Xóa Job (Chỉ Company owner)
+DELETE {{baseUrl}}/Jobs/1
+Authorization: Bearer {{token}}
+
+### ==============================================================
+### BƯỚC 4: TEST CASES KHÁC
+### ==============================================================
+
+### 4.1 Thử tạo Job khi chưa có Company profile (sẽ lỗi)
+POST {{baseUrl}}/Jobs
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "title": "Test Job",
+  "description": "This should fail if no company profile exists"
+}
+
+### 4.2 Thử update Job của người khác (sẽ bị Forbidden)
+PUT {{baseUrl}}/Jobs/1
+Content-Type: application/json
+Authorization: Bearer ANOTHER_USER_TOKEN
+
+{
+  "title": "Hacked Title"
+}
+
+### 4.3 Thử xóa Job của người khác (sẽ bị Forbidden)
+DELETE {{baseUrl}}/Jobs/1
+Authorization: Bearer ANOTHER_USER_TOKEN
+
+### ==============================================================
+### HƯỚNG DẪN SỬ DỤNG:
+### ==============================================================
+### 
+### 1. Đăng ký/Đăng nhập để lấy token (BƯỚC 1)
+### 2. Copy token vào biến @token ở đầu file
+### 3. Tạo Company profile (BƯỚC 2)
+### 4. Sau đó có thể tạo và quản lý Jobs (BƯỚC 3)
+### 
+### LƯU Ý:
+### - Phải có Company profile trước khi tạo Job
+### - Chỉ Company owner mới có thể update/delete Job của mình
+### - Token có hiệu lực 1 giờ, sau đó phải đăng nhập lại
+### 
+### ==============================================================
+
